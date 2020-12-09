@@ -1,0 +1,351 @@
+/*Go get Rubik Regular 400 font for h1 and right-side menu*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+/*Go get Nunito Regular 400 and Bold 700 font for h3 h4*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+
+/*Go get Roboto Regular 400 font for h5 h6 p*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin: auto;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 10px 5px;
+}
+
+h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px 15px 5px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 15px 5px;
+}
+
+img {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+body {
+  background: orange;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 10;
+  box-shadow: 0 0 3px #000000;
+}
+
+#left-side {
+  display: flex;
+}
+
+#right-side {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+a:link {
+  color: black;
+  transition: all 0.1s linear 0.1s;
+}
+
+a:visited {
+  color: dimgrey;
+}
+
+a:hover {
+  color: blue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.tagline {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: #ffffff;
+  flex-grow: 1;
+  max-width: 1400px;
+  height: 300px;
+  margin-bottom: 2em;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.box {
+  background-color: #ffffff;
+  text-align: center;
+  flex-grow: 1;
+  max-width: 550px;
+  height: 430px;
+  margin-bottom: 1em;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.rect {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-grow: 1;
+  max-width: 1250px;
+  height: 350px;
+  margin-bottom: 2em;
+  margin: 10px;
+}
+
+.XLcard {
+  background-color: orange;
+  text-align: center;
+}
+
+.square {
+  background-color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  max-width: 580px;
+  height: 330px;
+}
+
+.long {
+  background-color: #ffffff;
+  text-align: center;
+  flex-grow: 1;
+  width: 450px;
+  height: 320px;
+  margin-bottom: 2em;
+  margin: 10px;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-grow: 1;
+  max-width: 1250px;
+  height: 220px;
+  margin-bottom: 2em;
+  margin: 10px;
+}
+
+/*font resizing*/
+@media (min-width: 450px) {
+  h1 {
+    font-size: 28px;
+  }
+  #right-side {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 650px) {
+  h1 {
+    font-size: 34px;
+  }
+  #right-side {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 36px;
+  }
+  #right-side {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  h5 {
+    font-size: 28px;
+  }
+  h6 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 45px;
+  }
+  #right-side {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 50px;
+  }
+  h5 {
+    font-size: 34px;
+  }
+  h6 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 22px;
+  }
+}
+
+/*image resizing for about section*/
+@media screen and (min-width: 400px) {
+  img.responsive {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 600px) {
+  img.responsive {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  img.responsive {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  img.responsive {
+    width: 240px;
+  }
+}
+img.responsive {
+  height: auto;
+}
+
+/*interests images section*/
+@media screen and (min-width: 700px) {
+  img.change {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 800px) {
+  img.change {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 971px) {
+  img.change {
+    width: 110px;
+  }
+}
+@media screen and (min-width: 1114px) {
+  img.change {
+    width: 150px;
+  }
+}
+img.change {
+  height: auto;
+}
